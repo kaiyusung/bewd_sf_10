@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Animal:</strong>
+  <%= @zoo.animal %>
+</p>
+
+<p>
+  <strong>Born:</strong>
+  <%= @zoo.born %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @zoo.age %>
+</p>
+
+<p>
+  <strong>Available:</strong>
+  <%= @zoo.available %>
+</p>
+
+<%= link_to 'Edit', edit_zoo_path(@zoo) %> |
+<%= link_to 'Back', zoos_path %>

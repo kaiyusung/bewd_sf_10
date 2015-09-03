@@ -1,0 +1,33 @@
+<%= form_for(@zoo) do |f| %>
+  <% if @zoo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@zoo.errors.count, "error") %> prohibited this zoo from being saved:</h2>
+
+      <ul>
+      <% @zoo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :animal %><br>
+    <%= f.text_field :animal %>
+  </div>
+  <div class="field">
+    <%= f.label :born %><br>
+    <%= f.text_field :born %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :available %><br>
+    <%= f.check_box :available %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
