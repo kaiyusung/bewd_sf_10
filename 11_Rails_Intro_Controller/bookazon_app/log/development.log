@@ -1,0 +1,1151 @@
+
+
+Started GET "/" for ::1 at 2015-09-02 19:49:44 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 29ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:02:07 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError - File to import not found or unreadable: boostrap-sprockets.
+Load paths:
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/images
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/stylesheets
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/fonts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/images
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2469809215795783237_70276812201400'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/a754d6a2d56b8987/variables" for ::1 at 2015-09-02 20:02:08 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:03:24 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError - File to import not found or unreadable: boostrap-sprockets.
+Load paths:
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/images
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/stylesheets
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/fonts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/images
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2500837610204610059_70227920086060'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/b46801d9756822e3/variables" for ::1 at 2015-09-02 20:03:25 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:03:28 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError - File to import not found or unreadable: boostrap-sprockets.
+Load paths:
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/images
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/stylesheets
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/fonts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/images
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2500837610204610059_70227920086060'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/d01db12d3df03da9/variables" for ::1 at 2015-09-02 20:03:28 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:03:38 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError - File to import not found or unreadable: boostrap-sprockets.
+Load paths:
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/images
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/stylesheets
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/fonts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/images
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2500837610204610059_70227920086060'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/53b43b3d1cb51b6f/variables" for ::1 at 2015-09-02 20:03:38 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:04:14 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+Sass::SyntaxError - File to import not found or unreadable: boostrap-sprockets.
+Load paths:
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/images
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/app/assets/stylesheets
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/javascripts
+  /Users/kaiyusung/my_projects/bewd_sf_10/11_Rails_Intro_Controller/bookazon_app/vendor/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/javascripts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/fonts
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/images
+  /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/bootstrap-sass-3.3.5.1/assets/stylesheets:
+  sass (3.4.18) lib/sass/tree/import_node.rb:67:in `rescue in import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:45:in `import'
+  sass (3.4.18) lib/sass/tree/import_node.rb:28:in `imported_file'
+  sass (3.4.18) lib/sass/tree/import_node.rb:37:in `css_import?'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.18) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.18) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.18) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.18) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.18) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.18) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.18) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.18) lib/sass/engine.rb:278:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.3.4) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.3.4) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.3.4) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.3.4) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.3.4) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.3.4) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.3.4) lib/sprockets/loader.rb:316:in `fetch_asset_from_dependency_cache'
+  sprockets (3.3.4) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.3.4) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.3.4) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.3.4) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.2) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2500837610204610059_70227920086060'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/cfeb2a76f379e7ec/variables" for ::1 at 2015-09-02 20:04:15 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:06:06 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 5377ms (Views: 5367.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:06:12 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-3ffca0cc77d27a00c640d470b4b10e90faee9ad30cfa4b0f53d0c4e835365824.css?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-09-02 20:06:12 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-02 20:06:13 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-09-02 20:06:13 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 20:08:41 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 505ms (Views: 495.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:08:46 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 113ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:08:51 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:08:54 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 20:41:46 -0700
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 428ms (Views: 426.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for ::1 at 2015-09-02 20:41:50 -0700
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:42:52 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:01 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 140ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:19 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:19 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:19 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 114ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:20 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 121ms (Views: 120.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:20 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:21 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 143ms (Views: 142.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:22 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 120ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:23 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:24 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:24 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:25 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 124ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:32 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:32 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 143ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:33 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 20:43:59 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 20:44:00 -0700
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 20:44:18 -0700
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateBooks (20150903034846)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "year_published" integer, "author" varchar, "available" boolean, "genre" varchar, "image_url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150903034846"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (4.8ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "books" ("title", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "jitterbug perfume"], ["author", "Tom Robbins"], ["created_at", "2015-09-03 03:54:07.182198"], ["updated_at", "2015-09-03 03:54:07.182198"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "books" ("title", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "To Kill a MockingBird"], ["author", "Harper Lee"], ["created_at", "2015-09-03 03:56:04.888684"], ["updated_at", "2015-09-03 03:56:04.888684"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+
+
+Started GET "/books" for ::1 at 2015-09-02 20:59:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 178ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 21:01:41 -0700
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 21:05:31 -0700
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 155ms (Views: 154.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for ::1 at 2015-09-02 21:07:35 -0700
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 143.3ms | ActiveRecord: 0.1ms)

@@ -1,0 +1,196 @@
+
+
+Started GET "/" for ::1 at 2015-09-09 01:37:22 -0700
+
+ActiveRecord::PendingMigrationError - 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+:
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/f2a53980ee8ce8cf/variables" for ::1 at 2015-09-09 01:37:23 -0700
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateZoos (20150909082753)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "zoos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "animal_type" varchar, "age" integer, "available" boolean, "image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150909082753"]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-09-09 01:40:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 30ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zoo" for ::1 at 2015-09-09 01:40:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/zoo"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaiyusung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.2ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (71.1ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kaiyusung/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (135.2ms)
+
+
+Started GET "/zoos" for ::1 at 2015-09-09 01:40:12 -0700
+Processing by ZoosController#index as HTML
+  [1m[35mZoo Load (1.2ms)[0m  SELECT "zoos".* FROM "zoos"
+  Rendered zoos/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1520ms (Views: 1514.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/scaffolds.self-8141abd6422f537a14373cfafd883bed3bf3bb165c16d0b050a0b606eabb69a0.css?body=1" for ::1 at 2015-09-09 01:40:14 -0700
+
+
+Started GET "/assets/zoos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-09 01:40:14 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-09 01:40:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-09 01:40:14 -0700
+
+
+Started GET "/assets/zoos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-09 01:40:14 -0700
+
+
+Started GET "/zoos/new" for ::1 at 2015-09-09 01:40:17 -0700
+Processing by ZoosController#new as HTML
+  Rendered zoos/_form.html.erb (41.2ms)
+  Rendered zoos/new.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 85ms (Views: 76.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/zoos" for ::1 at 2015-09-09 01:42:54 -0700
+Processing by ZoosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ixj7JWPyxyaJR6rSq4nXovGz5r5XxjGk68e/eq3bEXj53XZsFTY5FmPFfwRNyVRvp3drZEvIfCCzBkXOmGeVoQ==", "zoo"=>{"name"=>"Simba", "animal_type"=>"Lion", "age"=>"10", "available"=>"1", "image"=>"http://vignette4.wikia.nocookie.net/animalcrossing/images/e/e3/Lion-013-2048x2048.jpg/revision/latest?cb=20130406213028"}, "commit"=>"Create Zoo"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "zoos" ("name", "animal_type", "age", "available", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Simba"], ["animal_type", "Lion"], ["age", 10], ["available", "t"], ["image", "http://vignette4.wikia.nocookie.net/animalcrossing/images/e/e3/Lion-013-2048x2048.jpg/revision/latest?cb=20130406213028"], ["created_at", "2015-09-09 08:42:54.835038"], ["updated_at", "2015-09-09 08:42:54.835038"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/zoos/1
+Completed 302 Found in 12ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/zoos/1" for ::1 at 2015-09-09 01:42:54 -0700
+Processing by ZoosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mZoo Load (0.2ms)[0m  SELECT  "zoos".* FROM "zoos" WHERE "zoos"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered zoos/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 50.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/zoos" for ::1 at 2015-09-09 01:42:58 -0700
+Processing by ZoosController#index as HTML
+  [1m[36mZoo Load (0.1ms)[0m  [1mSELECT "zoos".* FROM "zoos"[0m
+  Rendered zoos/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/zoos/new" for ::1 at 2015-09-09 01:42:59 -0700
+Processing by ZoosController#new as HTML
+  Rendered zoos/_form.html.erb (2.2ms)
+  Rendered zoos/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/zoos" for ::1 at 2015-09-09 01:43:12 -0700
+Processing by ZoosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BG5xyXSaKuPpAr0NNf1dTBEL/DbXAlQr07jRtQQCNiHeq/yAAl7U0wOAaNvTvd6BR89x7MsMGa+LeSsBMb6y+A==", "zoo"=>{"name"=>"Edward", "animal_type"=>"Cow", "age"=>"5", "available"=>"0", "image"=>""}, "commit"=>"Create Zoo"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "zoos" ("name", "animal_type", "age", "available", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Edward"], ["animal_type", "Cow"], ["age", 5], ["available", "f"], ["image", ""], ["created_at", "2015-09-09 08:43:12.441668"], ["updated_at", "2015-09-09 08:43:12.441668"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/zoos/2
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/zoos/2" for ::1 at 2015-09-09 01:43:12 -0700
+Processing by ZoosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mZoo Load (0.1ms)[0m  [1mSELECT  "zoos".* FROM "zoos" WHERE "zoos"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered zoos/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/zoos" for ::1 at 2015-09-09 01:43:14 -0700
+Processing by ZoosController#index as HTML
+  [1m[35mZoo Load (0.2ms)[0m  SELECT "zoos".* FROM "zoos"
+  Rendered zoos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.2ms)
