@@ -3,7 +3,11 @@
 
   <div class="well">
     <% @books.each do |book| %>
-    <li><%= book.title %></li>
+    <li><%= link_to "#{book.title}", book_path(book) %></li>
     <%end%>
   </div>
+</div>
+
+<div class="well">
+  <%= link_to "Add New Book", new_book_path, class: 'btn btn-default'%>
 </div>
