@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'static_pages/test'
+resources :artists
 
   #establish a custom route
   get 'about', to: "static_pages#about", as: "about"
