@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+
+  get 'static_pages/test'
+
+  #establish a custom route
+  get 'about', to: "static_pages#about", as: "about"
+  #about is a get request/who is in charge of this get request/ use about path
+  get 'test', to: "static_pages#test", as: "test"
+
+  #establish a root_path
+  root 'static_pages#home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
