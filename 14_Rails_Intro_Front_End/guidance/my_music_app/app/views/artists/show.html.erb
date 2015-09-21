@@ -1,2 +1,19 @@
-<h1>Artists#show</h1>
-<p>Find me in app/views/artists/show.html.erb</p>
+<h1 style="#color:#666666;"> <%=@artist.name %> </h1>
+<td class="col-md-10"> <%= image_tag(@artist.image_url, class: 'img-thumbnail img-responsive') %> </td>
+<h2> <%=@artist.description %> </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="well">
+    <%= link_to "Back to All Artists", artists_path, class: "btn btn-lg btn-default"%>
+</div>

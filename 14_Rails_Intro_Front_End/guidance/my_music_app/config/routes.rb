@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-resources :artists
+resources :artists do
+  resources :songs
+end
+#resources :reviews, only: [:index, :new, :create]...no ability to edit or destroy...this limits the number of routes.
 
   #establish a custom route
   get 'about', to: "static_pages#about", as: "about"
