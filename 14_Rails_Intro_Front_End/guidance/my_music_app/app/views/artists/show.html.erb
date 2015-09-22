@@ -1,13 +1,15 @@
 <h1 style="#color:#666666;"> <%=@artist.name %> </h1>
-<td class="col-md-10"> <%= image_tag(@artist.image_url, class: 'img-thumbnail img-responsive') %> </td>
-<h2> <%=@artist.description %> </h2>
-
-
-
-
-
-
-
+<td class="col-md-7"> <%= image_tag(@artist.image_url, class: 'img-thumbnail img-responsive') %> </td>
+<h2> Songs </h2>
+<%@artist.songs.each do |song|%>
+  <strong>Title</strong>
+  <%=song.title%>
+<%end%>
+<h2> Add a Song: </h2>
+  <%= simple_form_for ([@artist, @artist.songs.build]) do |f| %>
+  <%= f.input :title, label: false, input_html: {placeholder: "Title"} %>
+  <%end%>
+<h3> <%=@artist.description %> </h3>
 
 
 
